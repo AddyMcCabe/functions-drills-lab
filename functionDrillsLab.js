@@ -11,10 +11,10 @@
   Call the function.
 */
 
-function helloWorld(){
-  console.log('Hello, World!')
-}
- helloWorld();
+// function helloWorld(){
+//   console.log('Hello, World!')
+// }
+//  helloWorld();
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -22,8 +22,7 @@ function helloWorld(){
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
- const jsNinja = 
-
+  
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -32,9 +31,12 @@ function helloWorld(){
   Call the function, passing in an argument.
 */
 
-//CODE HERE
-
-
+// function printName(name){
+//   console.log(name);
+  
+// }
+// printName('addy')
+// printName('madi')
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called greeting that
@@ -46,8 +48,11 @@ function helloWorld(){
   Make sure to call your function and pass in an argument.
 */
 
-//CODE HERE
+// function greeting(name){
+//   console.log('Hello ' + name)
+// }
 
+// greeting('addy')
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -60,8 +65,15 @@ function helloWorld(){
     Brownie points if you use a ternary statement (only spend significant time on this if you have wiggle room)
 */
 
-//CODE HERE
+// function compareNums(number1, number2){
+//   if(number1 > number2){
+//     return number1}
+// else {
+//   return number2
+// }
+// }
 
+// console.log(compareNums(345, 345))
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -71,8 +83,11 @@ function helloWorld(){
   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
 */
 
-//CODE HERE
-
+// function add(num1, num2){
+//   let sum = parseInt(num1) + parseInt(num2);
+//   console.log(parseInt(sum))
+// }
+// add(1, '9')
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -87,7 +102,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+// 'expression'
 
 
 
@@ -102,7 +117,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+// 'arrow'
 // declaration
 // expression
 
@@ -113,6 +128,7 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
+// exclaimThree = str => `${string(str)}` .toUpperCase() + '!!!'
 
 
 ////////////////// PROBLEM 9 ////////////////////
@@ -127,7 +143,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+// 'declaration'
 // expression
 
 
@@ -140,7 +156,16 @@ function exclaimFour(str) {
   Create a variable called 'nameGreeting' and set it equal to your function invoked (called) passing in an argument.
 */
 
-//CODE HERE
+// function nameCheck(name){
+//   if(name === 'Steven'){return 'What is up Steven?'}
+//   else if(name === 'Bryan'){return 'Hey Bryan!'}
+//   else{return `cool name ${name}`}
+
+// }
+// const nameGreeting = nameCheck('Steven');
+// console.log(nameGreeting)
+   
+
 
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -153,7 +178,23 @@ function exclaimFour(str) {
   Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
 */
 
-//CODE HERE
+// function faveColorFinder(color){
+//   switch(color){
+//     case 'red':
+//       console.log('red is a great color');
+//       break;
+//       case 'green':
+//         console.log('green is a solid favorite color');
+//         break;
+//         case 'black':
+//           console.log('so trendy');
+//           break;
+//           default:
+//             console.log('you need to evaluate your favorite color choice')
+//   }
+// }
+// const colorRating = faveColorFinder('green')
+// console.log(colorRating)
 
 
 ////////////////// PROBLEM 12 ////////////////////
@@ -164,8 +205,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Call the function, passing in the `namesArr` array (above).
 */
 
-//CODE HERE
-
+// function printAllNames(namesArr){
+//   for(let i = 0; i < namesArr.length; i++){
+//     console.log(namesArr[i])
+//   }
+// }
+// printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
